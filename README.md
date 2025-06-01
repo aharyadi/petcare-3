@@ -47,31 +47,25 @@ To get a local copy up and running follow these simple example steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/MOB-TIM-A/Personal-Website-2.git
+   git clone https://github.com/MOB-TIM-A/petcare-3.git
    ```
 2. Open Folder
 
    ```sh
-   cd Personal-Website-2
+   cd petcare-3
    ```
 
 3. Install NPM packages
    ```sh
    npm install
    ```
-4. Install VS Code Extention
 
-   https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
 
-5. Running TailwindCLI for build css
+4. Running Project
 
-   ```sh
-   npm run start
+      ```sh
+   npm run dev
    ```
-
-6. Running Project
-
-   shortcut open live server `Alt + L , ALT + O`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -81,16 +75,24 @@ To get a local copy up and running follow these simple example steps.
 
 ```sh
 ├── node_modules
-├── assets            # Folder untuk menyimpan aset statis (gambar, font, dsb)
-│   ├── logo.png
+├── public              # Folder untuk menyimpan aset statis (gambar, font, dsb)
+│   ├── assets            
+│   │   ├── logo.png
+│   │   └── ...
 │   └── ...
-├── css               # Folder output untuk file CSS hasil build Tailwind
-│   └── main.css
-├── index.html        # Halaman utama website (homepage)
-├── .gitignore
-├── README.md
-├── style.css         # File sumber TailwindCSS
-└── package.json
+├── app                 # Folder untuk menyimpan aset statis (gambar, font, dsb)
+│   ├── components      # Folder untuk menyimpan component
+│   │   ├── navbar.jsx
+│   │   └── ...
+│   ├── about           # Folder untuk pages / halaman
+│   │   ├── page.jsx
+│   │   └── ...
+│   ├── global.css      # File CSS global (Tailwind, custom CSS, dll)
+│   ├── layout.jsx      # Root layout untuk semua halaman
+│   ├── not-found.jsx   # Halaman fallback 404 jika route / page tidak ditemukan
+│   ├── page.jsx        # Halaman Utama
+│   └── ...
+└── ...
 
 ```
 
