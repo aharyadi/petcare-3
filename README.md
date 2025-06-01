@@ -1,36 +1,133 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<a id="readme-top"></a>
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+<div style="background:white; padding: 5px 1rem 0; border-radius: 1rem; 	
+width: fit-content;">
+<img src="./public/assets/logo.svg" alt="Logo" width="80" height="50">
+</div>
+
+<h3 align="center">Pet Care Profile</h3>
+
+  <p align="center">
+    <a href="https://github.com/MOB-TIM-A/Personal-Website-2"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="#">View Demo</a>
+    &middot;
+    <a href="https://github.com/MOB-TIM-A/Personal-Website-2/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    &middot;
+    <a href="https://github.com/MOB-TIM-A/Personal-Website-2/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+  </p>
+</div>
+
+<!-- ABOUT THE PROJECT -->
+
+## About The Project
+
+<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Built With
+
+![HTML5][HTML5] ![javascript][javascript] [![tailwind][tailwindcss.com]][tailwind-url] [![nextjs][nextjs]][nextjs-url]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
 
 ## Getting Started
 
-First, run the development server:
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/MOB-TIM-A/Personal-Website-2.git
+   ```
+2. Open Folder
+
+   ```sh
+   cd Personal-Website-2
+   ```
+
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. Install VS Code Extention
+
+   https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
+
+5. Running TailwindCLI for build css
+
+   ```sh
+   npm run start
+   ```
+
+6. Running Project
+
+   shortcut open live server `Alt + L , ALT + O`
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## Structure Folder
+
+```sh
+├── node_modules
+├── assets            # Folder untuk menyimpan aset statis (gambar, font, dsb)
+│   ├── logo.png
+│   └── ...
+├── css               # Folder output untuk file CSS hasil build Tailwind
+│   └── main.css
+├── index.html        # Halaman utama website (homepage)
+├── .gitignore
+├── README.md
+├── style.css         # File sumber TailwindCSS
+└── package.json
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## before doing the task
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- git checkout -b name_branch => move and create new branch
+- git pull origin dev => required before working on the project
+- git checkout name_branch => move to name_branch
 
-## Learn More
+## Step Push github
 
-To learn more about Next.js, take a look at the following resources:
+1. git add name_file
+2. git commit -m "Add / Update File"
+3. git push
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## after push github
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. do a Pull Request from name_branch to dev
 
-## Deploy on Vercel
+- base: dev
+- compare: name_branch
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![PR](https://dicoding-assets.sgp1.cdn.digitaloceanspaces.com/blog/wp-content/uploads/2024/05/image-6-770x415.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. Click Pull Request
+3. Share Link Pull Request to Whatsapp Group
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[HTML5]: https://img.shields.io/badge/HTML5-20232A?style=for-the-badge&logo=html5
+[javascript]: https://img.shields.io/badge/javascript-20232A?style=for-the-badge&logo=javascript
+[nextjs]: https://img.shields.io/badge/Nextjs-20232A?style=for-the-badge&logo=next.js
+[nextjs-url]: https://nextjs.org
+[Tailwindcss.com]: https://img.shields.io/badge/Tailwind_CSS-20232A?style=for-the-badge&logo=tailwind-css
+[Tailwind-url]: https://tailwindcss.com
