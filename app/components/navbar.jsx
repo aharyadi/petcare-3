@@ -70,7 +70,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <Link
               href="/contact"
-              className="bg-white border border-black text-black py-2 px-4 rounded-3xl hover:bg-primary"
+              className="bg-white border border-black text-black py-2 px-4 rounded-3xl hover:bg-primary duration-300 transition-all ease-in-out"
             >
               Contact Us
             </Link>

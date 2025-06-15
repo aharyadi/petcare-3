@@ -32,17 +32,37 @@ const Footer = () => {
             </Link>
           </div>
           <div className="flex gap-6">
-            <Link href="#" className='bg-primary p-2 rounded-xl'>
-              <FaInstagram className='h-6 w-6 text-black'/>
+            <Link href="#" className='bg-primary p-2 rounded-xl group flex justify-center drop-shadow-xl from-gray-800 text-white font-medium hover:rounded-[50%] transition-all duration-500 hover:from-[#331029] hover:to-[#310413]'>
+              <FaInstagram className='h-6 w-6 text-black' />
+              <span
+                className="absolute opacity-0 group-hover:opacity-100 group-hover:text-white group-hover:text-sm group-hover:-translate-y-10 duration-700"
+              >
+                Instagram
+              </span>
             </Link>
-            <Link href="#" className='bg-primary p-2 rounded-xl'>
-              <FaDribbble className='h-6 w-6 text-black'/>
+            <Link href="#" className='bg-primary p-2 rounded-xl group flex justify-center drop-shadow-xl from-gray-800 text-white font-medium hover:rounded-[50%] transition-all duration-500 hover:from-[#331029] hover:to-[#310413]'>
+              <FaDribbble className='h-6 w-6 text-black' />
+              <span
+                className="absolute opacity-0 group-hover:opacity-100 group-hover:text-white group-hover:text-sm group-hover:-translate-y-10 duration-700"
+              >
+                Dribbble
+              </span>
             </Link>
-            <Link href="#" className='bg-primary p-2 rounded-xl'>
-              <FaBehance className='h-6 w-6 text-black'/>
+            <Link href="#" className='bg-primary p-2 rounded-xl group flex justify-center drop-shadow-xl from-gray-800 text-white font-medium hover:rounded-[50%] transition-all duration-500 hover:from-[#331029] hover:to-[#310413]'>
+              <FaBehance className='h-6 w-6 text-black' />
+              <span
+                className="absolute opacity-0 group-hover:opacity-100 group-hover:text-white group-hover:text-sm group-hover:-translate-y-10 duration-700"
+              >
+                Behance
+              </span>
             </Link>
-            <Link href="#" className='bg-primary p-2 rounded-xl'>
-              <FaLinkedinIn className='h-6 w-6 text-black'/>
+            <Link href="#" className='bg-primary p-2 rounded-xl group flex justify-center drop-shadow-xl from-gray-800 text-white font-medium hover:rounded-[50%] transition-all duration-500 hover:from-[#331029] hover:to-[#310413]'>
+              <FaLinkedinIn className='h-6 w-6 text-black' />
+              <span
+                className="absolute opacity-0 group-hover:opacity-100 group-hover:text-white group-hover:text-sm group-hover:-translate-y-10 duration-700"
+              >
+                LinkedIn
+              </span>
             </Link>
           </div>
         </div>
